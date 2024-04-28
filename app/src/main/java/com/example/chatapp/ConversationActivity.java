@@ -78,7 +78,7 @@ public class ConversationActivity extends AppCompatActivity {
         });
 
         builder.setNegativeButton("Cancel", null);
-        builder.create(); // show skip kra hai yaha pe
+        builder.create().show(); // show skip kra hai yaha pe
     }
 
     void showNewGroupDialog(){
@@ -106,7 +106,7 @@ public class ConversationActivity extends AppCompatActivity {
         });
 
         builder.setNegativeButton("Cancel", null);
-        builder.create();
+        builder.create().show();
     }
 
     void showJoinGroupDialog(){
@@ -125,7 +125,7 @@ public class ConversationActivity extends AppCompatActivity {
         });
 
         builder.setNegativeButton("Cancel", null);
-        builder.create();
+        builder.create().show();
     }
 
     public void joinGroupChat(String groupId) {
